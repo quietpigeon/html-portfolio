@@ -1,21 +1,26 @@
 div {
-	text-align:center;
-}
-
-@media only screen and (max-width: 350px) {
-	.main-body {
-		padding: 50px 50px 50px 50px;
-	}
-}
-@media only screen and (min-width: 350px) {
-	.main-body {
-		padding: 75px 75px 75px 75px;
-	}
+	text-align: center;
 }
 
 @media only screen and (min-width: 435px) {
-	.footer{
+	.main-body {
+		padding: 75px 75px 75px 75px;
+	}
+
+	.footer {
 		width: 315px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 435px) {
+	.main-body {
+		padding: 50px 50px 50px 50px;
+	}
+
+	.footer {
+		width: 260px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -26,6 +31,3 @@ div {
 	padding-top: 25px;
 	justify-content: space-around;
 }
-
-
-
