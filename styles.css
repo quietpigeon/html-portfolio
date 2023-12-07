@@ -2,8 +2,19 @@ div {
 	text-align: center;
 }
 
+body {
+	line-height: 1.4;
+	max-width: 650px;
+	margin: 40px auto;
+	color:#444;
+}
+
+h1, h2, h3 {
+	line-height: 1.2;
+}
+
 @media only screen and (min-width: 435px) {
-	.main-body {
+	body {
 		padding: 75px 75px 75px 75px;
 	}
 
@@ -15,7 +26,7 @@ div {
 }
 
 @media only screen and (max-width: 435px) {
-	.main-body {
+	body {
 		padding: 50px 50px 50px 50px;
 	}
 
