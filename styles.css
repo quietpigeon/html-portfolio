@@ -42,3 +42,11 @@ h1, h2, h3 {
 	padding-top: 25px;
 	justify-content: space-around;
 }
+
+.resume {
+	text-align: left;
+}
+
+.languages {
+	font-weight: bold;
+}
