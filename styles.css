@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/mononoki.min.css");
+
 div {
 	text-align: center;
 }
@@ -47,6 +49,6 @@ h1, h2, h3 {
 	text-align: left;
 }
 
-.languages {
-	font-weight: bold;
+* {
+  font-family: 'mononoki';
 }
